@@ -15,6 +15,7 @@ const config: Config = {
       "3xl": "2rem",
       "4xl": "3rem",
       "5xl": "4rem",
+      "6xl": "5rem",
     },
     fontWeight: {
       light: "300",
@@ -30,6 +31,7 @@ const config: Config = {
       spacing: {
         0.25: "0.25rem",
         0.5: "0.5rem",
+        0.75: "0.75rem",
         1: "1rem",
         2: "2rem",
         3: "3rem",
