@@ -18,7 +18,7 @@ export default function Home() {
           <span className="font-semibold"> India</span>
         </div>
         <button className="bg-black text-white py-0.75 mt-1 font-medium px-2">
-          Let's talk with me{" "}
+          Let's talk with me
           <Image
             className="inline-block bg-gradient-to-r from-gradient-start from-0% via-gradient-mid via-52% to-gradient-end to-100% ml-0.5"
             src={ArrowIcon}
