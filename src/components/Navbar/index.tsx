@@ -9,9 +9,12 @@ import NavbarFooter from "./NavbarFooter";
 function Navbar() {
   const pathname = usePathname();
   return (
-    <nav className="flex flex-col justify-between h-screen bg-black p-2 w-[280px] min-w-[280px]">
-      <header className="text-white text-2xl font-semibold pt-2">
+    <nav className="fixed left-0 flex flex-col justify-between h-screen bg-black lg:p-2 w-[48px] min-w-[48px] lg:w-[280px] lg:min-w-[280px]">
+      <header className="hidden lg:block text-white text-2xl font-semibold pt-2">
         Dheeraj Kushwah
+      </header>
+      <header className="block text-center lg:hidden text-white text-2xl font-semibold pt-2">
+        DK
       </header>
       <ul className="text-white mb-15">
         {NAV_OPTIONS?.map((navItem: NavItemType) => (

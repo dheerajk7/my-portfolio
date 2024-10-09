@@ -9,10 +9,10 @@ function NavItem({ id, title, isActive, endPoint, icon }: NavItemType) {
       key={id}
     >
       <Link href={endPoint}>
-        <div className="w-fit">
+        <div className="m-auto lg:m-0 w-fit">
           <div className="flex content-center gap-0.5 mb-0.25">
             {icon && <Image className="" src={icon} alt={title} />}
-            {title}
+            <span className="hidden lg:inline" >{title}</span>
           </div>
           <div
             className={` ${

@@ -17,7 +17,7 @@ export default function RootLayout({
       <body className="font-ibm">
         <div className="flex h-screen">
           <Navbar />
-          <div className="h-screen overflow-auto w-full">{children}</div>
+          <div className="ml-[48px] lg:ml-[280px] h-screen overflow-auto w-full">{children}</div>
         </div>
       </body>
     </html>
