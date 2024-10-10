@@ -4,6 +4,7 @@ interface ButtonTypes {
   outline?: "active" | "dark" | "transparent" | "light" | "none";
   rounded?: boolean;
   handleClick?: any;
+  buttonClasses?: string;
 }
 
 export type { ButtonTypes };
