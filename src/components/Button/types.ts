@@ -3,7 +3,7 @@ interface ButtonTypes {
   variant?: "active" | "transparent" | "dark";
   outline?: "active" | "dark" | "transparent" | "light" | "none";
   rounded?: boolean;
-  handleClick?: any;
+  handleClick?: () => void;
   buttonClasses?: string;
 }
 

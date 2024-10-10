@@ -15,6 +15,9 @@ function Button({
   if (rounded) {
     buttonClassNames += " rounded-3xl";
   }
+  if(outline) {
+    buttonClassNames += " border"
+  }
   buttonClassNames += " " + buttonClasses;
   return (
     <button className={buttonClassNames} onClick={handleClick}>
