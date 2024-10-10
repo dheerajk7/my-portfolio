@@ -1,19 +1,9 @@
-interface NavItemType {
+interface NavigationOptionType {
   id: string;
   title: string;
+  isLeft: boolean;
+  href: string;
   isActive?: boolean;
-  endPoint: string;
-  icon?: string;
 }
 
-interface NavbarFooterItemType {
-  id: string;
-  title: string;
-  icon: string;
-  endPoint: string;
-}
-
-export type {
-    NavItemType,
-    NavbarFooterItemType,
-}
+export type { NavigationOptionType };

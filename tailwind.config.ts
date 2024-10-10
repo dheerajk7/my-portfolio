@@ -8,14 +8,15 @@ const config: Config = {
   ],
   theme: {
     fontSize: {
-      sm: "0.8rem",
-      base: "1rem",
-      xl: "1.25rem",
-      "2xl": "1.5rem",
-      "3xl": "2rem",
-      "4xl": "3rem",
-      "5xl": "4rem",
-      "6xl": "5rem",
+      sm: "0.667rem",
+      base: "0.778rem",
+      xl: "1rem",
+      "2xl": "1.278rem",
+      "3xl": "1.556rem",
+      "4xl": "1.944rem",
+      "5xl": "2.444rem",
+      "6xl": "3.056rem",
+      "7xl": "3.833rem",
     },
     fontWeight: {
       light: "300",
@@ -26,7 +27,7 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        ibm: ['"IBM Plex Sans"', "sans-serif"],
+        ibm: ['"Poppins"', "sans-serif"],
       },
       spacing: {
         0.25: "0.25rem",
@@ -41,23 +42,35 @@ const config: Config = {
         10: "10rem",
         15: "15rem",
       },
+      screens: {
+        sm: "480px",
+        md: "1020px",
+        lg: "1160px",
+      },
       colors: {
-        white: "#FFFFFF",
-        black: "#141313",
-        "icon-light-background": "rgba(20, 19, 19, 0.05)",
-        "gradient-start": "#ffb147",
-        "gradient-mid": "#ff6c63",
-        "gradient-end": "#b86adf",
-        "text-highlight": "#B86ADF",
+        orange: "#FD6F00",
+        "orange-50": "#FFEFE6",
+        "orange-100": "#FFCFB0",
+        "orange-200": "#FFB78A",
+        "orange-300": "#FF9654",
+        "orange-400": "#FF8233",
+        "orange-500": "#FF6300",
+        "orange-600": "#E85A00",
+        "orange-700": "#B54600",
+        "orange-800": "#8C3600",
+        "orange-900": "#6B2A00",
+        black: "#000000",
+        "black-50": "#E6E6E6",
+        "black-100": "#B0B0B0",
+        "black-200": "#8A8A8A",
+        "black-300": "#545454",
+        "black-400": "#333333",
+        "black-500": "#000000",
+        gray: "#F8F8F8",
+        "gray-100": "#EDECEC"
       },
     },
   },
-
-  screens: {
-    sm: "480px",
-    lg: "1160",
-  },
-
   
   plugins: [],
 };
