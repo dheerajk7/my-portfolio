@@ -8,7 +8,7 @@ function Home() {
   return (
     <section className="max-w-[1200px] px-1 md:px-2 md:py-3 m-auto flex flex-col-reverse md:flex-row">
       <div className="text-center md:text-left md:pr-2 pt-0.5 md:pt-2 w-[100%] md:w-[50%]">
-        <div className="pb-0.25 text-black-300">Hi, I am</div>
+        <div className="pb-0.25 text-black-300">Hi&#44; I am</div>
         <div className="pb-0.25 text-2xl text-orange font-semibold">
           Dheeraj Kushwah
         </div>
@@ -18,7 +18,7 @@ function Home() {
         </div>
         <div className="pt-0.75 pb-0.25 text-black-300">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book. It has survived not only
           five centuries, but also the leap into electronic typesetting,
