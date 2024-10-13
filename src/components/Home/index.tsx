@@ -6,7 +6,7 @@ import Link from "next/link";
 import Button from "@components/Button";
 function Home() {
   return (
-    <section className="max-w-[1200px] px-1 md:px-2 md:py-3 m-auto flex flex-col-reverse md:flex-row">
+    <section className="max-w-[1150px] px-1 md:py-3 m-auto flex flex-col-reverse md:flex-row">
       <div className="text-center md:text-left md:pr-2 pt-0.5 md:pt-2 w-[100%] md:w-[50%]">
         <div className="pb-0.25 text-black-300">Hi&#44; I am</div>
         <div className="pb-0.25 text-2xl text-orange font-semibold">

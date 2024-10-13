@@ -31,7 +31,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="w-full px-0.25 py-0.5 text-xl text-white select-none">
+    <nav className="fixed top-0 w-full bg-white px-0.25 pt-0.5 text-xl text-white select-none z-20">
       <div className="hidden md:flex items-center bg-black m-auto p-0.25 w-fit rounded-3xl">
         {leftNavOptions?.map((navItem: NavigationOptionType) => (
           <Button
